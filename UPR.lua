@@ -337,8 +337,6 @@ local function SendChatMessage(message)
         game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
     end
 end
-	end
-})
 
 sections.Section1:AddSeparator({
 	text = ""
